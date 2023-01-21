@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="/student-management/URLToReachResourceFolder/css/mystyle.css">
 <link rel="stylesheet" type="text/css" href="/student-management/URLToReachResourceFolder/css/mybackgroundimage.css">
 </head>
-<body>
+<body class="myFonts">
 	<h1 align="center">Selenium Express</h1>
 	<div align="center">
 		<table border="1">
@@ -32,7 +32,7 @@
 		</table>
 		<!--  <img alt="sexy bitch" src="/student-management/URLToReachResourceFolder/images/sexybitch.jpg"> -->
 		<form action="addStudentToList" method="get">
-			<input type="submit" value="ADD">
+			<input type="submit" value="ADD" class="myButtons">
 		</form>
 	</div>
 </body>

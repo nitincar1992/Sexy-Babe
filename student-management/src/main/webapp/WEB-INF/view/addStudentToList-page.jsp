@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="/student-management/URLToReachResourceFolder/css/mystyle.css">
 <link rel="stylesheet" type="text/css" href="/student-management/URLToReachResourceFolder/css/mybackgroundimage2.css">
 </head>
-<body>
+<body class="myFonts">
 <h3 align="right">Enter Student details</h3>
 	<form:form action="saveStudentToList" method="post" modelAttribute="studentDTO">
 		<div align="right">
@@ -23,7 +23,7 @@
 			<label>Country :</label>
 			<form:input path="country" id="country" />
 			<br /> 
-			<input type="submit" value="Submit">
+			<input type="submit" value="Submit" class="myButtons">
 		</div>
 	</form:form>
 </body>

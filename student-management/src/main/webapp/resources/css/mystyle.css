@@ -6,3 +6,18 @@ h1 {
 h3{
 	color: red;
 }
+.myFonts {
+	font-family: cursive;
+}
+.myButtons{
+
+	color: white;
+	background-color: blue;
+	border: 2px solid green; 
+	font-size: 12px;
+	padding: 10px 10px 10px 10px;
+}
+.myButtons:hover{
+	background-color: yellow;
+	color: black;
+}

@@ -4,5 +4,6 @@ body {
 	
 	background-image: url("/student-management/URLToReachImageFolder/sexyhole.jpg");
 	background-size: 1280px 650px;
+	background-attachment: fixed;
 	
 }

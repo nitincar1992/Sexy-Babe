@@ -4,5 +4,6 @@ body {
 	
 	background-image: url("/student-management/URLToReachImageFolder/sexybitch.jpg");
 	background-size: 1279px 650px;
+	background-attachment: fixed;
 	
 }

@@ -6,13 +6,14 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Student Data List</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="/student-management/URLToReachResourceFolder/css/mystyle.css">
 <link rel="stylesheet" type="text/css" href="/student-management/URLToReachResourceFolder/css/mybackgroundimage.css">
 </head>
 <body class="myFonts">
+	<div class="container">
 	<h1 align="center">Selenium Express</h1>
-	<div align="center">
-		<table border="1">
+		<table border="1" class="table table-hover">
 			<tr>
 				<th>id</th>
 				<th>name</th>
@@ -32,7 +33,7 @@
 		</table>
 		<!--  <img alt="sexy bitch" src="/student-management/URLToReachResourceFolder/images/sexybitch.jpg"> -->
 		<form action="addStudentToList" method="get">
-			<input type="submit" value="ADD" class="myButtons">
+			<input type="submit" value="ADD" class="btn btn-outline-primary">
 		</form>
 	</div>
 </body>
